@@ -48,7 +48,6 @@ src/
 
 | Module | Implementation | Key Responsibility |
 | :--- | :--- | :--- |
-| **Language** | **Java 17+ (LTS)** | Core application logic and object-oriented structure. |
 | **Language** | **Java 17** | Core application logic and object-oriented structure. |
 | **GUI Framework** | **Java Swing / AWT** | Custom-rendered components with dynamic theme support. |
 | **Intelligence** | **Implemented AI API** | `AIService` for automated vendor and store categorization. |
@@ -73,5 +72,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 Developed by Aleksa Mandžukić 
 *Empowering financial freedom through intelligent software.*
+
 
 ---
