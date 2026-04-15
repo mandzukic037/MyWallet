@@ -60,10 +60,23 @@ src/
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/mandzukic037/mywallet.git](https://github.com/mandzukic037/mywallet.git)
+    git clone https://github.com/mandzukic037/mywallet.git
     ```
-2.  **Build:** Open the project directory in any modern Java IDE (IntelliJ IDEA, Eclipse, or VS Code).
-3.  **Run:** Navigate to the `ui` package and execute `MainApp.java` to launch the application.
+
+2.  **Set your API Key:**
+    
+    Open `src/service/AiService.java` and replace the API key with your own:
+    
+    ```java
+    private static final String API_KEY = "YOUR_API_KEY_HERE";
+    ```
+
+    ⚠️ **Important:**  
+    Do not use the existing key. Generate your own Gemini API key.
+
+3.  **Build:** Open the project directory in any modern Java IDE (IntelliJ IDEA, Eclipse, or VS Code).
+
+4.  **Run:** Navigate to the `ui` package and execute `MainApp.java` to launch the application.
 
 ---
 
