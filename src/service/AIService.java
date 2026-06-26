@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class AIService {
 
-    private static final String API_KEY = "AIzaSyBYrnBqgEc4IlW7LqYjKky2heVU99h5Pck";
+    private static final String API_KEY = "AIzaSyA-fwTGlJdS1wd9Y7S11Mkj85ZvChlwLVE";
 
     public static String predictMarketType(String marketName) {
         String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
@@ -59,4 +59,5 @@ public class AIService {
             return "Error: " + e.getMessage();
         }
     }
+
 }
